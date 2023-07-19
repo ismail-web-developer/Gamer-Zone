@@ -113,6 +113,7 @@ body {
 .banner_desc {
     padding: 10px 0;
     font-size: 1.4rem;
+    text-align: left;
 }
 
 #second_btn {
