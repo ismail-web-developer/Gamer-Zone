@@ -14,22 +14,20 @@ body {
 .section_title_color {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
-    font-size: 6rem;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .btn_priamry {
     border-radius: 48px;
-    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background: #FF42A5;
     font-size: 1.4rem;
     color: #FFF;
+    cursor: pointer;
     padding: 21px 40px;
     margin: 20px 0;
     border: 0;
 }
-
-
 
 
 * {
@@ -108,10 +106,16 @@ body {
     color: #0B0223;
     text-transform: uppercase;
 }
-
+.goat{
+    font-size: 6rem;
+}
 .banner_desc {
     padding: 10px 0;
     font-size: 1.4rem;
+}
+#second_btn{
+    background-color: #4EC5F7;
+    margin: 0 10px;
 }
 
 /* banner end */
@@ -145,7 +149,41 @@ main {
 }
 
 /* gamer end */
+/* funny img container start */
+section{
+    padding: 180px 20;
+}
+.funny_content{
+    padding: 20px;
+    text-align: center;
+}
+.funny_content h3{
+    font-size: 3rem;
+}
+.funny_content p{
+    font-size: 1.2rem;
+    padding: 5px;
+}
+.funny_img_wrap{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 
+}
+.funny_img_container p{
+    margin: 10px 0;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+    color: #534C64;
+}
+.funny_img_container{
+    transition: 1s;
+}
+.funny_img_container:hover{
+    transform: scale(1.1);
+    z-index: 1;
+}
+/* funny img container end */
 
 
 
@@ -207,6 +245,11 @@ main {
     }
 
     /* gamer end */
+    /* funny image statrt*/
+    .funny_img_wrap{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /* funny image end*/
 }
 
 /* tablet or midium device */
@@ -245,4 +288,9 @@ main {
         width: 375px;
     }
     /* gamer end */
+    /* funny image statrt*/
+    .funny_img_wrap{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    /* funny image end*/
 }
