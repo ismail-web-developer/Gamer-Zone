@@ -112,61 +112,137 @@ body {
 .banner_desc {
     padding: 10px 0;
     font-size: 1.4rem;
-
 }
 
-.banner_img {}
-
 /* banner end */
+/* gamer start */
+main {
+    margin: 20px;
+}
+
+.gamer {
+    display: flex;
+
+}
+.gamer_content {
+    padding: 90px 40px;
+    text-align: right;
+}
+.gamer_content h3 {
+    font-size: 3rem;
+}
+.gamer_content p {
+    font-size: 1.2rem;
+    line-height: 1.9rem;
+}
+.gamer_content .purpose {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.gamer_content h4 {
+    font-size: 2rem;
+    color: #534C64;
+}
+
+/* gamer end */
+
+
+
+
+
+
+
+
+
+
 /* responsive style */
 /* small device */
-
 @media screen and (max-width: 576px) {
+
     /* nav and banner start */
     .navbar,
-    .banner_container {
+    .banner_container,
+    .gamer {
         flex-direction: column;
     }
-    .navbar{
+
+    .navbar {
         padding: 10px;
     }
+
     .banner_content {
         width: 200px;
         padding: 50px;
     }
-    .section_title_color{
+
+    .section_title_color {
         font-size: 4rem;
     }
-    .banner_content img{
+
+    .banner_content img {
         width: 100%;
     }
+
     .btn_priamry {
         font-size: 1rem;
         padding: 15px;
     }
+
     /* nav and banner end */
+    /* gamer start */
+    .gamer_content p {
+        margin: 20px 0;
+        text-align: justify;
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .gamer_content h4 {
+        font-size: 1rem;
+    }
+
+    .gamer_content .purpose {
+        font-size: 1rem;
+        text-align: right;
+    }
+
+    /* gamer end */
 }
+
 /* tablet or midium device */
 @media screen and (min-width: 576px) and (max-width: 960px) {
+
     .navbar,
     .banner_container {
         flex-direction: column;
     }
-    .navbar{
+
+    .navbar {
         padding: 10px;
     }
+
     .banner_content {
         width: 200px;
         padding: 50px;
     }
-    .section_title_color{
+
+    .section_title_color {
         font-size: 4rem;
     }
-    .banner_content img{
+
+    .banner_content img {
         width: 100%;
     }
+
     .btn_priamry {
         font-size: 1.2rem;
         padding: 15px;
     }
+
+    /* nav and banner end */
+    /* gamer start */
+    .gamer img {
+        width: 375px;
+    }
+    /* gamer end */
 }
