@@ -27,6 +27,15 @@ body {
     padding: 21px 40px;
     margin: 20px 0;
     border: 0;
+    transition-duration: .5s;
+}
+.btn_priamry:hover{
+    background-color: #fff;
+    color: #3C354F;
+    border: 1px solid #FF42A5;
+}
+a:hover{
+    color: #FF42A5;
 }
 
 
@@ -75,6 +84,10 @@ body {
     text-transform: capitalize;
     font-size: 1.2rem;
     color: #3C354F;
+    
+}
+.menu li a:hover{
+    color: #F948B2;
 }
 
 .contact {
@@ -120,6 +133,11 @@ body {
 #second_btn {
     background-color: #4EC5F7;
     margin: 0 10px;
+}
+#second_btn:hover{
+    background-color: #FFFFFF;
+    border: 1px solid #FF42A5;
+    color: #312c2f;
 }
 
 .banner_img img {
@@ -197,12 +215,13 @@ section {
 }
 
 .funny_img_container {
-    transition: 1s;
+    transition-duration: .5s;
 }
 
 .funny_img_container:hover {
     transform: scale(1.1);
     z-index: 1;
+
 }
 
 /* funny img container end */
@@ -309,13 +328,14 @@ section {
     margin-right: 5px;
     font-size: 1rem;
     border: 0;
+    padding: 5px 20px;
     border-radius: 50px;
     background: #FFF;
     cursor: pointer;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    transition: .4s ease;
+    transition: 1s ease;
     box-shadow: 2px 2px 4px #312c2f;
 
 }
@@ -377,6 +397,9 @@ footer {
     list-style: none;
     margin: 20px;
 }
+.privacy li a:hover{
+    color: #FF42A5;
+}
 
 .privacy li a ,p{
     margin: 20px 0;
@@ -385,6 +408,9 @@ footer {
     text-align: center;
     font-size: 1rem;
     font-weight: 500;
+}
+.footer_menu li a:hover{
+    color: #FF42A5;
 }
 
 
